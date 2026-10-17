@@ -201,6 +201,31 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# Ignore all node_modules folders anywhere in the project tree
+node_modules/
+
+
+
+**/node_modules/
+
+
+
+# Ignore all Terraform internal directories and state assets
+.terraform/
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfplan
+.terraform.lock.hcl
+
+# Optional: Ignore package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+
 # Marimo
 marimo/_static/
 marimo/_lsp/

@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: ./frontend
+    container_name: ecommerce-frontend
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+
+  user:
+    build: ./backend/user-service
+    container_name: ecommerce-user
+    ports:
+      - "3001:3001"
+    restart: unless-stopped
+
+  products:
+    build: ./backend/product-service
+    container_name: ecommerce-products
+    ports:
+      - "3002:3002"
+    restart: unless-stopped
+
+  orders:
+    build: ./backend/order-service
+    container_name: ecommerce-orders
+    ports:
+      - "3003:3003"
+    restart: unless-stopped
+
+  cart:
+    build: ./backend/cart-service
+    container_name: ecommerce-cart
+    ports:
+      - "3004:3004"
+    restart: unless-stopped
