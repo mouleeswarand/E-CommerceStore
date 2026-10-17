@@ -183,6 +183,9 @@ Access the frontend by navigating to: `http://<EC2_PUBLIC_IP>:3000`
 ### 2. Terraform Apply Output
 <img width="895" height="345" alt="image" src="https://github.com/user-attachments/assets/18438fe4-f77f-41e4-b5de-69ede513bec3" />
 
+<img width="843" height="161" alt="image" src="https://github.com/user-attachments/assets/f837630d-fcfd-407c-8c92-b0f5a18086d1" />
+
+
 
 ### 3. AWS Console - EC2 Running
 <img width="1612" height="542" alt="image" src="https://github.com/user-attachments/assets/2667c157-2e90-429a-9f42-80ab5e43450a" />
