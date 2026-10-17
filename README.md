@@ -1,6 +1,8 @@
 
 
-# SkillTest3:  Deploy a Multi-Service Node.js E-commerce Application Using Terraform and Docker
+# Assignment | Skill Test 3: Infrastructure and Automation  
+
+# Deploy a Multi-Service Node.js E-commerce Application Using Terraform and Docker
 
 ## Background
 This project provisions AWS infrastructure using Terraform and deploys a multi-service Node.js e-commerce application. The application consists of one frontend and four backend services (User, Products, Orders, Cart). Each service is containerized using Docker and deployed onto an AWS EC2 instance.
